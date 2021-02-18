@@ -1,4 +1,11 @@
-// multiple dimension array deep clone
+/**
+ * multiple dimension array deep clone
+ * 
+ * array copy or object copy is only copy one dimension (shallow copy),
+ * deep clone need to copy children array or object
+ * 
+ */
+
 const arrayClone = (array) => {
     let copy;
     if (Array.isArray(array)) {
